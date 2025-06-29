@@ -1,0 +1,101 @@
+/* Grundinställningar och bakgrund */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background-image: url('himmel.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  text-align: center; /* ← Centrera all text */
+}
+
+/* Navigationsmeny centrerad */
+nav {
+  text-align: center;
+  padding: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Huvudrubrik */
+h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  margin-top: 175px;  /* ← Ändrat från 30px */
+}
+
+}
+
+/* Underrubriker */
+h2, h3 {
+  text-align: center;
+}
+
+/* Paragrafer */
+p {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+/* Centrera huvudinnehåll */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Kontaktformulär */
+form {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  color: black;
+  text-shadow: none;
+}
+
+/* Formulärfält */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Skicka-knappen */
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Extra textklass, om du vill använda */
+.start-text {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
